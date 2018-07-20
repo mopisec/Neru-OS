@@ -1,2 +1,4 @@
-# Neru-OS
-Hobby Operating System based on Haribote-OS
+# Neru OS
+ホビーOS、ねるおーえす。
+NICドライバ(RTL8139)実装が終わり次第コミットする。
+TCPとかIPの仕組みを勉強しなければ......

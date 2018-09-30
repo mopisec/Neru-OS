@@ -24,6 +24,12 @@ Features
 * PCI Bus Configuration (Now on the Development: Just available to output PCI Vendor Name)
 * NIC Driver (RTL8139, Not implemented yet)
 
+Additional Information
+---------------
+* startup.hsf is Haribote Script File.
+(Command that is written in this file will be excuted automatically.)
+* Some of the file like image is compressed by tek format.
+
 License
 ---------------
 This software is licensed by MIT License.

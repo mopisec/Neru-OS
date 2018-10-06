@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>NeruOS - About</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,600" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="logo">NeruOS</div>
+      <ul>
+        <li class="header-item"><a href="index.html">Home</a></li>
+        <li class="header-item"><a href="about.html">About</a></li>
+        <li class="header-item"><a href="links.html">Links</a></li>
+      </ul>
+    </header>
+    <div class="description">
+      <div class="description-title">Feature of NeruOS</div>
+      <div class="point-title">Original Window Design and Desktop Layout</div>
+      <div class="point-description">
+        This is the first feature that I worked on. HariboteOS has window design like "Windows 95", but I wanted to make my OS with full of originarity. So, I changed desktop design and desktop layout. It was really hard to design. I calculated height and width to make beautiful layout, so it was long fight with debugging.
+      </div>
+      <div class="point-title">Serial Communication</div>
+      <div class="point-description">
+        After implementing original window design and desktop layout, I wanted to implement serial communication. Because when I was viewing <a href="https://wiki.osdev.org/Expanded_Main_Page">OSDev.org</a>, I founded article about serial communication. Then I thought I may implement it on my hobby operating system. Now, commands that output PCI Vendor ID through serial communication is available. Now only system and user console can output data so I am planning to implement application API for sending data through serial communication.
+      </div>
+      <div class="point-title">PCI Bus Configuration</div>
+      <div class="point-description">
+        Next, I wanted to control devices that is available. But to do that, I needed to work on PCI Bus Configuration. For now, it can just output Vendor ID but I am now developing function to scan device and control it.
+      </div>
+      <div class="point-title">NIC Driver (RTL8139)</div>
+      <div class="point-description">
+        NOW ON DEVELOPMENT.
+      </div>
+    </div>
+    <footer>
+      <div class="footer-copyright">Copyright © 2018 @moppoi5168 All Rights Reserved. This webpage is published using Github Pages.</div>
+    </footer>
+  </body>
+</html>

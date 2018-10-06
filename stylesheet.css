@@ -1,0 +1,65 @@
+.logo {
+  font-family: 'Oswald', sans-serif;
+  font-weight: semi-bold;
+  font-size: 60px;
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.header-item {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  list-style: none;
+  float: left;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+body {
+  margin: 0;
+  margin-top: 0;
+  height: 300px;
+  background-color: #1e90ff;
+}
+header {
+  margin: 0;
+  margin-top: 0;
+  height: 140px;
+  background-color: #f0f8ff;
+}
+.description {
+  background-color: #f0f8ff;
+  margin-top: 20px;
+  padding-bottom: 32px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.description-title {
+  font-weight: semi-bold;
+  font-family: 'Oswald', sans-serif;
+  font-size: 90px;
+}
+.point-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 70px;
+}
+.point-description {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+}
+.links {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+}
+footer {
+  margin: 0;
+  height: 50px;
+  background-color: #000000;
+}
+.footer-copyright {
+  margin: 0;
+  color: #ffffff;
+}
